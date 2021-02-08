@@ -1,14 +1,14 @@
 @import '_normalize';
+@import '_variables';
+@import '_templates';
 @import '_fonts';
 @import '_header';
 @import '_main';
 @import '_footer';
-@import '_variables';
-@import '_templates';
 @import '_responsive';
 
 .container {
   margin: 0 auto;
-  max-width: 1150px;
-  width: 99%;
+  max-width: 1200px;
+  width: 98%;
 }

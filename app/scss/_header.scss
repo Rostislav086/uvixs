@@ -1,11 +1,13 @@
 .header {
 	&-wrapper {
+		@extend %header-bcg;
 		max-height: 80px;
-		background-color: #000;
+		
 	}
 	&-container {
+		padding: 10px 0px;
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: center;
 	}
 	&-logo{
@@ -16,24 +18,47 @@
 	}
 	&-nav {
 		&__link {
-			margin: 0px 15px 0px 0px;
-			text-decoration: none;
-			color: #ffffff;
+			display: inline-block;
+			margin: 0px 40px 0px 0px;
+			font-family: 'Gotham Pro';
+			font-style: normal;
+			font-weight: bold;
+			font-size: 13px;
+			line-height: 12px;
 			text-transform: uppercase;
+			text-decoration: none;
+			color: #000000;
+			transition: color 0.3s ease, border-bottom 0.3s ease;
+
+			&:hover {
+				color: #ffffff;
+				border-bottom: 3px solid #ffffff;
+			}
 		}
 		&__link:last-child{
 			margin: 0px 0px 0px 0px;
 		}
 	}
-	&-social {
-		&__link	{
-			margin: 0px 15px 0px 0px;
-			text-decoration: none;
-			color: #ffffff;
+
+	&-call {
+		display: flex;
+		align-items: center;
+		&__link {
+			display: inline-block;
+			padding: 13px 21px;
+			background-color: #ffffff;
+			font-family: 'Gotham Pro';
+			font-style: normal;
+			font-weight: normal;
+			font-size: 12px;
+			line-height: 11px;
 			text-transform: uppercase;
+			text-decoration: none;
+			border-radius: 100px
 		}
-		&__link:last-child{
-			margin: 0px 0px 0px 0px;
+		&__icon {
+			@extend %bcg-color;
+			border-radius: 50%;
 		}
 	}
 }
