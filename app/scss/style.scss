@@ -7,3 +7,8 @@
 @import '_templates';
 @import '_responsive';
 
+.container {
+  margin: 0 auto;
+  max-width: 1150px;
+  width: 99%;
+}

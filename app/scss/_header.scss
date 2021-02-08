@@ -1,0 +1,39 @@
+.header {
+	&-wrapper {
+		max-height: 80px;
+		background-color: #000;
+	}
+	&-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&-logo{
+		.logo {
+			max-width: 73px;
+			max-height: 73px;
+		}
+	}
+	&-nav {
+		&__link {
+			margin: 0px 15px 0px 0px;
+			text-decoration: none;
+			color: #ffffff;
+			text-transform: uppercase;
+		}
+		&__link:last-child{
+			margin: 0px 0px 0px 0px;
+		}
+	}
+	&-social {
+		&__link	{
+			margin: 0px 15px 0px 0px;
+			text-decoration: none;
+			color: #ffffff;
+			text-transform: uppercase;
+		}
+		&__link:last-child{
+			margin: 0px 0px 0px 0px;
+		}
+	}
+}
