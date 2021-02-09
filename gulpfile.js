@@ -37,6 +37,7 @@ let cleancss = require('gulp-clean-css');
 let autoprefixer = require('gulp-autoprefixer');
 let rename = require("gulp-rename");
 let uglify = require('gulp-uglify-es').default;
+let rigger = require('gulp-rigger');
 
 // Определяем логику работы Browsersync
 	function browserSync() {
@@ -52,6 +53,7 @@ let uglify = require('gulp-uglify-es').default;
 // Определяем логику обработки HTML
 	function html() {
 		return src(path.src.html) //Берём файлы из источников
+		.pipe(rigger())
 		.pipe(dest(path.build.html)) //Выгружаем готовый файл в пункт назначения
 		.pipe(browsersync.stream()) // Сделаем инъекцию в браузер
 	}
