@@ -1,0 +1,162 @@
+.footer {
+
+	&-wrapper {
+		background: url('../img/bcg-footer.png');
+	}
+
+	&-container {
+		padding: 110px 0px 30px 0px;
+		display: flex;
+	}
+
+	&-form {
+		flex-basis: 50%;
+	}
+	&-check{
+		text-align: center;
+		margin: 0px 0px 47px 0px;
+	}
+
+	&-input {
+		width: 430px;
+		height: 27px;
+		margin: 0px 0px 27px 0px;
+		padding: 0px 0px 0px 28px;
+		font-family: 'Gotham Pro';
+		font-style: normal;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 15px;
+		border-radius: 61px;
+		outline:none;
+		// color: #000000;
+	}
+
+	&-radio {
+		margin: 0px 117px 0px 0px;
+		font-family: 'Gotham Pro';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		line-height: 12px;
+		text-align: center;
+		text-transform: uppercase;
+
+		&:last-child{
+			margin: 0px 0px 0px 0px;
+		}
+	}
+
+	.input {
+		&__write {
+			margin: 0px 10px 0px 0px;
+		}
+	}
+
+	&-bottom {
+		background: #000000;
+
+		&__container {
+			padding: 49px 0px 27px 0px;
+			display: flex;
+			justify-content: space-around;
+		}
+	}
+
+	&-nav {
+
+		&__link {
+			margin: 0px 40px 0px 0px;
+			font-family: 'Gotham Pro';
+			font-style: normal;
+			font-weight: bold;
+			font-size: 13px;
+			line-height: 12px;
+			text-transform: uppercase;
+			color: #FFFFFF;
+			text-decoration: none;
+
+
+
+			&:last-child{
+				margin: 0px 0px 0px 0px;
+			}
+		}
+	}
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	&-title {
+		margin: 0px 0px 12px 0px;
+		font-family: 'Gotham Pro';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 23px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #000000;
+	}
+
+	&-subtitle {
+		margin: 0px 0px 45px 0px;
+		font-family: 'Gotham Pro';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 15px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #000000;
+	}
+
+	&-button {
+		width: 50%;
+		margin: 0 auto;
+		padding: 8px 70px;
+		background: #F7C71F;
+		border-radius: 61px;
+		font-family: 'Gotham Pro';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		line-height: 12px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #000000;	
+	}
+}
+
+.footer {
+		&__text {
+			position: absolute;
+			top: 40%;
+			left: 15%;
+			font-family: 'Gotham Pro';
+			font-style: normal;
+			font-weight: bold;
+			font-size: 13px;
+			line-height: 12px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		.text__first {
+			margin: 0px 0px 51px 0px;
+			transform: matrix(0.97, -0.21, 0.24, 0.98, 0, 0);
+		}
+
+		.text__second {
+			transform: matrix(0.99, 0.15, -0.17, 0.99, 0, 0);
+		}
+
+		&__picture {
+		}
+}
+
+
+

@@ -1,9 +1,102 @@
 // section "menu block" -------------------------------------------------------
 .menu {
+
 	&-wrapper {
-		
+	}
+
+	&-container {
+		padding: 85px 0px 50px 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&-content {
+		margin: 15px 0px 50px 0px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	&-block {
+		flex-basis: 50%;
+		text-align: center;
+
+		&__title {
+		}
+
+		&__link {
+		}
+	}
+
+	&-section {
+
+		&__title {
+		}
+
+		&__end {
+			margin: 0px 0px 10px 0px;
+			font-family: 'Gotham Pro';
+			font-style: normal;
+			font-weight: bold;
+			font-size: 24px;
+			line-height: 23px;
+			text-transform: uppercase;
+			color: #000000;
+		}
+
+		&__ps {
+			font-family: 'Gotham Pro';
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 15px;
+			text-transform: uppercase;
+			color: #000000;
+		}
 	}
 }
+
+.we {
+
+	&-wrapper {
+		background: #F3F3F3;
+	}
+
+	&-container {
+		padding: 0px 0px 35px 0px;
+		display: flex;
+	}
+
+	&-content {
+		padding: 70px 0px 0px 0px;
+		flex-basis: 60%;
+
+		&__title {
+			@extend %section-title;
+			margin: 0px 0px 55px 0px;
+		}
+
+		&__description {
+			margin: 0px 0px 25px 0px;
+			font-family: 'Gotham Pro';
+			font-style: normal;
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 15px;
+		}
+	}
+
+	&-back {
+		height: 54px;
+		background: #F7C71F;
+	}
+
+}
+.wrapper {
+}
+.container {
+}
+
+
 
 
 // section  -------------------------------------------------------
