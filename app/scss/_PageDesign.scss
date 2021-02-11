@@ -31,11 +31,11 @@
 		line-height: 10px;
 		text-align: center;
 		text-transform: uppercase;
-
-		&:last-child {
+		&__end {
 			margin: 0px 0px 0px 0px;
 		}
 	}
+
 
 	&-description {
 		width: 80%;

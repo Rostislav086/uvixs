@@ -1,0 +1,259 @@
+.about {
+
+	&-wrapper {
+		background: url('../img/site/bcg_site.png');
+		&__logo {
+			background: url('../img/logo/bcg_logo.png');
+		}
+		&__present {
+			background: url('../img/present/bcg_about.png');
+		}
+		&__style {
+			background: url('../img/style/bcg_style.png');
+		}
+		&__polygraph {
+			background: url('../img/polygraph/bcg_poly.png');
+		}
+	}
+
+	&-container {
+		display: flex;
+		&__present {
+			display: flex;
+		}
+	}
+
+	&-content {
+		padding: 98px 33px 0px 0px;
+
+	}
+
+
+	&-img {
+		width: 50%;
+	}
+
+	&-picture {
+		&__present {
+			
+		}
+	}
+}
+.content {
+
+	&-title {
+		margin: 0px 0px 27px 0px;
+		font-family: $ff;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 57px;
+		line-height: 55px;
+		text-transform: uppercase;
+	}
+
+	&-subtitle {
+		margin: 0px 0px 27px 0px;
+		font-family: $ff;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		line-height: 12px;
+		text-transform: uppercase;
+	}
+
+	&-description {
+		width: 85%;
+		font-family: $ff;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 15px;
+		text-align: justify;
+
+		&__polygraph {
+			width: 60%;
+			margin: 0px 0px 215px 0px;
+		}
+	}
+}
+
+.price {
+
+	&-wrapper {
+		background: url('../img/site/bcg_price.png');
+		// background-size: contain;
+	}
+
+	&-container {
+		padding: 132px 0px 60px 0px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+		&__polygraph {
+			flex-direction: column;
+		}
+	}
+
+	&-item {
+		margin: 0px 15px 0px 15px;
+		background: #FFFFFF;
+		box-shadow: 6px 5px 6px rgba(0, 0, 0, 0.25);
+		border-radius: 13.937px;
+		flex-basis: 27%;
+		text-align: center;
+		transition: transform 0.3s ease, scale 0.3s ease;
+		&:hover {
+			transform: translate(0, -50px);
+			scale: 1.05;
+		}
+
+		&__style {
+			display: flex;
+			flex-basis: 50%;
+			align-items: center;
+		}
+	}
+
+	&-pic {
+		padding: 35px 0px 0px 0px;
+		margin: 0px 0px 50px 0px;
+		max-width: 140px;
+	}
+
+	&-left{
+		margin: 0px 0px 0px 15px;
+	}
+
+	&-title {
+		margin: 0px 0px 15px 0px;
+		font-family: $ff;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16.7244px;
+		line-height: 16px;
+		/* identical to box height */
+		text-transform: uppercase;
+	}
+
+	&-description {
+		width: 80%;
+		min-height: 50px;
+		margin: 0 auto;
+		font-family: $ff;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 9px;
+		line-height: 9px;
+
+		&__style {
+			width: 60%;
+			text-align: left;
+		}
+
+		&__item {
+			list-style-type: none;
+			margin: 0px 0px 12px 0px;
+			font-size: 16px;
+			line-height: 16px;
+			&::before {
+				content: '-';
+				margin: 0px 3px 0px 0px;
+			}
+			&:last-child {
+				margin: 0px 0px 0px 0px;
+			}
+		}
+	}
+
+	&-cost {
+		margin: 15px 0px 0px 0px;
+		font-family: $ff;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		line-height: 15px;
+
+		&__summ {
+			margin: 0px 9px 0px 9px;
+			font-family: $ff;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 27px;
+			line-height: 26px;
+			/* identical to box height */
+			text-transform: uppercase;
+		}
+	}
+
+	&-title {
+		margin: 0px 0px 95px 0px;
+		font-family: $ff;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 23px;
+		text-transform: uppercase;
+	}
+
+	&-block {
+		display: flex;
+		flex-wrap: wrap;
+		&__item {
+			margin: 0px 0px 75px 0px;
+			text-align: center;
+			flex-basis: 25%;
+		}
+	}
+
+	&-button {
+		display: inline-block;
+		width: 60%;
+		height: 30px;
+		margin: 25px 0px 40px 0px;
+		background: #FFFFFF;
+		box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+		border-radius: 12px;
+
+		font-family: $ff;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		line-height: 30px;
+		/* identical to box height */
+		text-transform: uppercase;
+		color: #000000;
+		text-decoration: none;
+		transition: background 0.4s ease;
+		&:hover {
+			background: #F8C71E;
+		}
+
+		&__polygraph {
+			width: 30%;
+			margin: 0 auto;
+			text-align: center;
+			background: #F8C71E;
+			&:hover {
+				background: #FFFFFF;
+			}
+	
+		}
+	}
+}
+
+.block {
+	&-picture {
+		margin: 0px 0px 25px 0px;
+	}
+
+	&-subtitle {
+		font-family: $ff;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 15px;
+		text-transform: uppercase;
+	}
+}
+

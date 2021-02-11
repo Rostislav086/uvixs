@@ -113,8 +113,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
@@ -406,7 +407,7 @@
   line-height: 10px;
   text-align: center;
   text-transform: uppercase; }
-  .design-subtitle:last-child {
+  .design-subtitle__end {
     margin: 0px 0px 0px 0px; }
 
 .design-description {
@@ -471,6 +472,231 @@
     line-height: 18px;
     text-transform: uppercase;
     color: #000000; }
+
+.about-wrapper {
+  background: url("../img/site/bcg_site.png"); }
+  .about-wrapper__logo {
+    background: url("../img/logo/bcg_logo.png"); }
+  .about-wrapper__present {
+    background: url("../img/present/bcg_about.png"); }
+  .about-wrapper__style {
+    background: url("../img/style/bcg_style.png"); }
+  .about-wrapper__polygraph {
+    background: url("../img/polygraph/bcg_poly.png"); }
+
+.about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .about-container__present {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+.about-content {
+  padding: 98px 33px 0px 0px; }
+
+.about-img {
+  width: 50%; }
+
+.content-title {
+  margin: 0px 0px 27px 0px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 57px;
+  line-height: 55px;
+  text-transform: uppercase; }
+
+.content-subtitle {
+  margin: 0px 0px 27px 0px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 12px;
+  text-transform: uppercase; }
+
+.content-description {
+  width: 85%;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 15px;
+  text-align: justify; }
+  .content-description__polygraph {
+    width: 60%;
+    margin: 0px 0px 215px 0px; }
+
+.price-wrapper {
+  background: url("../img/site/bcg_price.png"); }
+
+.price-container {
+  padding: 132px 0px 60px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .price-container__polygraph {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+.price-item {
+  margin: 0px 15px 0px 15px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 6px 5px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: 6px 5px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 13.937px;
+  -ms-flex-preferred-size: 27%;
+      flex-basis: 27%;
+  text-align: center;
+  -webkit-transition: scale 0.3s ease, -webkit-transform 0.3s ease;
+  transition: scale 0.3s ease, -webkit-transform 0.3s ease;
+  -o-transition: transform 0.3s ease, scale 0.3s ease;
+  transition: transform 0.3s ease, scale 0.3s ease;
+  transition: transform 0.3s ease, scale 0.3s ease, -webkit-transform 0.3s ease; }
+  .price-item:hover {
+    -webkit-transform: translate(0, -50px);
+        -ms-transform: translate(0, -50px);
+            transform: translate(0, -50px);
+    scale: 1.05; }
+  .price-item__style {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+.price-pic {
+  padding: 35px 0px 0px 0px;
+  margin: 0px 0px 50px 0px;
+  max-width: 140px; }
+
+.price-left {
+  margin: 0px 0px 0px 15px; }
+
+.price-title {
+  margin: 0px 0px 15px 0px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16.7244px;
+  line-height: 16px;
+  /* identical to box height */
+  text-transform: uppercase; }
+
+.price-description {
+  width: 80%;
+  min-height: 50px;
+  margin: 0 auto;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 9px; }
+  .price-description__style {
+    width: 60%;
+    text-align: left; }
+  .price-description__item {
+    list-style-type: none;
+    margin: 0px 0px 12px 0px;
+    font-size: 16px;
+    line-height: 16px; }
+    .price-description__item::before {
+      content: '-';
+      margin: 0px 3px 0px 0px; }
+    .price-description__item:last-child {
+      margin: 0px 0px 0px 0px; }
+
+.price-cost {
+  margin: 15px 0px 0px 0px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 15px; }
+  .price-cost__summ {
+    margin: 0px 9px 0px 9px;
+    font-family: "Gotham Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 26px;
+    /* identical to box height */
+    text-transform: uppercase; }
+
+.price-title {
+  margin: 0px 0px 95px 0px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 23px;
+  text-transform: uppercase; }
+
+.price-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .price-block__item {
+    margin: 0px 0px 75px 0px;
+    text-align: center;
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%; }
+
+.price-button {
+  display: inline-block;
+  width: 60%;
+  height: 30px;
+  margin: 25px 0px 40px 0px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  -webkit-transition: background 0.4s ease;
+  -o-transition: background 0.4s ease;
+  transition: background 0.4s ease; }
+  .price-button:hover {
+    background: #F8C71E; }
+  .price-button__polygraph {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    background: #F8C71E; }
+    .price-button__polygraph:hover {
+      background: #FFFFFF; }
+
+.block-picture {
+  margin: 0px 0px 25px 0px; }
+
+.block-subtitle {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 15px;
+  text-transform: uppercase; }
 
 .container {
   margin: 0 auto;
