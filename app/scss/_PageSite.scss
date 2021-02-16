@@ -14,6 +14,17 @@
 		&__polygraph {
 			background: url('../img/polygraph/bcg_poly.png');
 		}
+		&__digital {
+			background: url('../img/digitl/bcg-digital.png');
+		}
+		
+		&__app {
+			background: url('../img/app/bcg-app.png');
+		}
+		
+		&__chat {
+			background: url('../img/chat/bcg-chat.png');
+		}
 	}
 
 	&-container {
@@ -21,25 +32,80 @@
 		&__present {
 			display: flex;
 		}
+		&__chat {
+			padding: 0px 0px 65px 0px;
+		}
 	}
 
 	&-content {
 		padding: 98px 33px 0px 0px;
+		
+		&__app {
+			padding: 165px 0px 0px 0px;
+		}
+
+		&__chat {
+			flex-basis: 45%;
+		}
+
+		&__error {
+			width: 70%;
+		}
 
 	}
 
 
 	&-img {
 		width: 50%;
+
+		&__digital {
+			margin: 51px 0px 0px 0px;
+		}
+
+		&__error {
+			margin: 55px 0px 0px 0px;
+		}
+
+		&__contacts {
+			margin: 50px 0px 0px 0px;
+		}
 	}
 
 	&-picture {
-		&__present {
-			
-		}
+
 	}
 }
 .content {
+
+	&-adress {
+		margin: 35px 0px 0px 0px;
+		font-family: $ff;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 36px;
+		color: #000000;
+	}
+
+	&-button {
+		display: inline-block;
+		background: #F7C71F;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		padding: 6px 70px;
+		border-radius: 100px;
+		font-family: $ff;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		line-height: 13px;
+		text-transform: uppercase;
+		color: #000000;
+		text-decoration: none;
+	}
+
+	&-picture {
+		margin: 0px 0px 70px 0px;
+	}
 
 	&-title {
 		margin: 0px 0px 27px 0px;
@@ -49,6 +115,11 @@
 		font-size: 57px;
 		line-height: 55px;
 		text-transform: uppercase;
+
+		&__error {
+			font-size: 24px;
+			line-height: 23px;
+		}
 	}
 
 	&-subtitle {
@@ -73,6 +144,20 @@
 		&__polygraph {
 			width: 60%;
 			margin: 0px 0px 215px 0px;
+		}
+
+		&__digital {
+			margin: 70px 0px 0px 0px;
+			width: 75%;
+		}
+
+		&__app {
+			width: 70%;
+		}
+
+		&__error {
+		width: 100%;
+		margin: 0px 0px 60px 0px;
 		}
 	}
 }
@@ -113,12 +198,33 @@
 			flex-basis: 50%;
 			align-items: center;
 		}
+
+		&__digital {
+			// flex-basis: 15%;
+			width: 255px;
+			border-radius: 33px;
+		}
+
+		&__chat {
+			flex-basis: 40%;
+		}
+	}
+
+	&-link {
+		text-decoration: none;
+		color: #000000;
 	}
 
 	&-pic {
 		padding: 35px 0px 0px 0px;
 		margin: 0px 0px 50px 0px;
 		max-width: 140px;
+		
+		&__chat {
+			margin: 0px 0px 15px 0px;
+		}
+
+		
 	}
 
 	&-left{
@@ -194,6 +300,14 @@
 		font-size: 24px;
 		line-height: 23px;
 		text-transform: uppercase;
+
+		&__digital {
+			margin: 0px 0px 40px 0px;	
+		}
+
+		&__chat {
+			margin: 0px 0px 20px 0px;
+		}
 	}
 
 	&-block {

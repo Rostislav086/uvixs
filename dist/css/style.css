@@ -483,6 +483,12 @@
     background: url("../img/style/bcg_style.png"); }
   .about-wrapper__polygraph {
     background: url("../img/polygraph/bcg_poly.png"); }
+  .about-wrapper__digital {
+    background: url("../img/digitl/bcg-digital.png"); }
+  .about-wrapper__app {
+    background: url("../img/app/bcg-app.png"); }
+  .about-wrapper__chat {
+    background: url("../img/chat/bcg-chat.png"); }
 
 .about-container {
   display: -webkit-box;
@@ -492,12 +498,55 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
+  .about-container__chat {
+    padding: 0px 0px 65px 0px; }
 
 .about-content {
   padding: 98px 33px 0px 0px; }
+  .about-content__app {
+    padding: 165px 0px 0px 0px; }
+  .about-content__chat {
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%; }
+  .about-content__error {
+    width: 70%; }
 
 .about-img {
   width: 50%; }
+  .about-img__digital {
+    margin: 51px 0px 0px 0px; }
+  .about-img__error {
+    margin: 55px 0px 0px 0px; }
+  .about-img__contacts {
+    margin: 50px 0px 0px 0px; }
+
+.content-adress {
+  margin: 35px 0px 0px 0px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000; }
+
+.content-button {
+  display: inline-block;
+  background: #F7C71F;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 6px 70px;
+  border-radius: 100px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none; }
+
+.content-picture {
+  margin: 0px 0px 70px 0px; }
 
 .content-title {
   margin: 0px 0px 27px 0px;
@@ -507,6 +556,9 @@
   font-size: 57px;
   line-height: 55px;
   text-transform: uppercase; }
+  .content-title__error {
+    font-size: 24px;
+    line-height: 23px; }
 
 .content-subtitle {
   margin: 0px 0px 27px 0px;
@@ -528,6 +580,14 @@
   .content-description__polygraph {
     width: 60%;
     margin: 0px 0px 215px 0px; }
+  .content-description__digital {
+    margin: 70px 0px 0px 0px;
+    width: 75%; }
+  .content-description__app {
+    width: 70%; }
+  .content-description__error {
+    width: 100%;
+    margin: 0px 0px 60px 0px; }
 
 .price-wrapper {
   background: url("../img/site/bcg_price.png"); }
@@ -576,11 +636,23 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+  .price-item__digital {
+    width: 255px;
+    border-radius: 33px; }
+  .price-item__chat {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%; }
+
+.price-link {
+  text-decoration: none;
+  color: #000000; }
 
 .price-pic {
   padding: 35px 0px 0px 0px;
   margin: 0px 0px 50px 0px;
   max-width: 140px; }
+  .price-pic__chat {
+    margin: 0px 0px 15px 0px; }
 
 .price-left {
   margin: 0px 0px 0px 15px; }
@@ -643,6 +715,10 @@
   font-size: 24px;
   line-height: 23px;
   text-transform: uppercase; }
+  .price-title__digital {
+    margin: 0px 0px 40px 0px; }
+  .price-title__chat {
+    margin: 0px 0px 20px 0px; }
 
 .price-block {
   display: -webkit-box;
