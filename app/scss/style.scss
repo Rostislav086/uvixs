@@ -14,3 +14,24 @@
   max-width: 1200px;
   width: 98%;
 }
+
+a.gif {
+  // position: absolute;
+  display: inline-block;
+  // background: url('../img/animation/__3.gif');
+  width: 350px;
+  height: 350px;
+}
+// a.gif:hover {
+//   background:none; /* Фон (статичное изображение) не было видно при наведении мыши */
+// }
+
+a.gif img {
+  max-width: 400px;
+  width: 98%;
+}
+
+// a.gif:hover img {
+//   visibility:visible; /* При наведении анимация показывается */
+//   border:0; /* без обрамления */
+//   }
